@@ -1,7 +1,7 @@
 package com.test.employee.bean;
 
 /**
- * @author janardhana
+ * @author janardhana ammineni
  *
  */
 public class EmployeeBean {
