@@ -1,18 +1,14 @@
-/**
- * 
- */
-package com.cybage.employee.dao;
-
+package com.test.employee.service;
 
 import java.util.List;
 
-import com.cybage.employee.model.Employee;
+import com.test.employee.model.Employee;
 
 /**
  * @author Janardhan
  *
  */
-public interface EmployeeDao {
+public interface EmployeeService {
  
  public void addEmployee(Employee employee);
 

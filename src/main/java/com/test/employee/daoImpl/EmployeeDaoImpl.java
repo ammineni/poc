@@ -1,4 +1,4 @@
-package com.cybage.employee.daoImpl;
+package com.test.employee.daoImpl;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.cybage.employee.dao.EmployeeDao;
-import com.cybage.employee.model.Employee;
+import com.test.employee.dao.EmployeeDao;
+import com.test.employee.model.Employee;
 
 /**
  * @author Janardhan

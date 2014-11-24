@@ -1,4 +1,4 @@
-package com.cybage.employee.controller;
+package com.test.employee.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.cybage.employee.bean.EmployeeBean;
-import com.cybage.employee.model.Employee;
-import com.cybage.employee.service.EmployeeService;
+import com.test.employee.bean.EmployeeBean;
+import com.test.employee.model.Employee;
+import com.test.employee.service.EmployeeService;
 
 // TODO: Auto-generated Javadoc
 /**

@@ -15,7 +15,7 @@
 
 
 	<context:property-placeholder location="classpath:database.properties" />
-	<context:component-scan base-package="com.cybage.employee" />
+	<context:component-scan base-package="com.test.employee" />
 
 	<tx:annotation-driven transaction-manager="hibernateTransactionManager" />
 
@@ -47,7 +47,7 @@
 		</property>
 		<property name="annotatedClasses">
 			<list>
-				<value>com.cybage.employee.model.Employee</value>
+				<value>com.test.employee.model.Employee</value>
 			</list>
 		</property>
 	</bean>

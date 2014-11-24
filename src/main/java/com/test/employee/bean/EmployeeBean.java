@@ -1,4 +1,4 @@
-package com.cybage.employee.bean;
+package com.test.employee.bean;
 
 /**
  * @author janardhana

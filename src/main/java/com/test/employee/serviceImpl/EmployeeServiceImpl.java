@@ -1,4 +1,4 @@
-package com.cybage.employee.serviceImpl;
+package com.test.employee.serviceImpl;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.cybage.employee.dao.EmployeeDao;
-import com.cybage.employee.model.Employee;
-import com.cybage.employee.service.EmployeeService;
+import com.test.employee.dao.EmployeeDao;
+import com.test.employee.model.Employee;
+import com.test.employee.service.EmployeeService;
 
 /**
  * @author Janardhan

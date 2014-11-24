@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cybage.employee.model;
+package com.test.employee.model;
 
 
 import java.io.Serializable;
