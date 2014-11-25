@@ -314,14 +314,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>SpringSecurityLoginDatabase</finalName>
-		<extensions>
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ssh</artifactId>
-				<version>2.5</version>
-			</extension>
-		</extensions>
+		<finalName>SpringSecurityLoginDatabase</finalName>		
 	</build>
 
 
