@@ -29,6 +29,7 @@
 	<properties>
 		<org.springframework.version>3.0.5.RELEASE</org.springframework.version>
 	</properties>
+
 	<dependencies>
 		<!-- PrimeFaces -->
 		<dependency>
@@ -314,6 +315,24 @@
 	</dependencies>
 	<build>
 		<finalName>SpringSecurityLoginDatabase</finalName>
+
+		<!-- Tomcat plugin -->
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<path>/${project.build.finalName}</path>
+					<update>true</update>
+					<url>http://172.24.90.60:8080/manager/html</url>
+					<username>admin</username>
+					<password>admin</password>
+				</configuration>
+			</plugin>
+		</plugins>
+
+
 		<extensions>
 			<extension>
 				<groupId>org.apache.maven.wagon</groupId>
