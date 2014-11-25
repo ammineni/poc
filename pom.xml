@@ -40,7 +40,7 @@
 	</properties>
 
 	<dependencies>
-		
+
 		<!-- PrimeFaces -->
 		<dependency>
 			<groupId>org.primefaces</groupId>
@@ -299,12 +299,14 @@
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
 		</dependency>
-		
-		<!-- <dependency>
-			<groupId>javax.servlet</groupId>
+
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
-			<version>2.0</version>			
-		</dependency> -->
+			<version>2.1</version>
+			<scope>provided</scope>
+		</dependency>
+
 
 		<!-- Tab Libs -->
 		<dependency>
