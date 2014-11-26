@@ -1,3 +1,12 @@
+CREATE TABLE  `dev`.`employee` (
+  `empid` int(11) NOT NULL AUTO_INCREMENT,
+  `address` varchar(255) DEFAULT NULL,
+  `empAge` int(11) DEFAULT NULL,
+  `empname` varchar(255) DEFAULT NULL,
+  `salary` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`empid`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
 CREATE TABLE `users` (
   `USER_ID` int(10) unsigned NOT NULL,
   `USERNAME` varchar(40) NOT NULL,
